@@ -8,6 +8,7 @@ const list_of_books = [
     title: 'Curious Mind',
     author: 'Jordan Moore',
   },
+
   {
     img: 'https://images-na.ssl-images-amazon.com/images/I/81wgcld4wxL._AC_UL900_SR900,600_.jpg',
     title: 'Atomic Habits',
@@ -17,9 +18,10 @@ const list_of_books = [
 
 function App() {
   return (
-    <section className='books_container'>
-      <Book_template {...list_of_books[0]} />
-      <Book_template {...list_of_books[1]} />
+    <section className='booklist'>
+      {' '}
+      <Book_template {...list_of_books[0]} />{' '}
+      <Book_template {...list_of_books[1]} />{' '}
     </section>
   );
 }
