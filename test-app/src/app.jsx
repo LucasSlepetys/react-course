@@ -19,9 +19,7 @@ const list_of_books = [
 function App() {
   return (
     <section className='booklist'>
-      {' '}
-      <Book_template {...list_of_books[0]} />{' '}
-      <Book_template {...list_of_books[1]} />{' '}
+      list_of_books.forEach(list = {<Book_template {...list} />})
     </section>
   );
 }
