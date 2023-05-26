@@ -19,7 +19,9 @@ const list_of_books = [
 function App() {
   return (
     <section className='booklist'>
-      list_of_books.forEach(list = {<Book_template {...list} />})
+      {list_of_books.map((book) => {
+        return <Book_template {...book} />;
+      })}
     </section>
   );
 }

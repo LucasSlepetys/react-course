@@ -1,6 +1,6 @@
 import react from 'react';
 
-const Book_template = (props) => {
+const Book_template = ({ ...props }) => {
   return (
     <div className='book'>
       <img src={props.img} alt='This is the image of the book' />
