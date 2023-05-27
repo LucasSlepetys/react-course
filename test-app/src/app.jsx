@@ -4,11 +4,20 @@ import { books } from './book component/bookList.js';
 
 function App() {
   return (
-    <section className='booklist'>
-      {books.map((book) => {
-        return <Book_template {...book} key={book.id}></Book_template>;
-      })}
-    </section>
+    <>
+      <h1>Best Sallers In Books</h1>
+      <section className='booklist'>
+        {books.map((book, index) => {
+          return (
+            <Book_template
+              {...book}
+              key={book.id}
+              index={index + 1}
+            ></Book_template>
+          );
+        })}
+      </section>
+    </>
   );
 }
 
