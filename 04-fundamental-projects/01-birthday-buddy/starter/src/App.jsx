@@ -1,4 +1,10 @@
+import BirthdayContainer from './birthdayContainer';
+
 const App = () => {
-  return <h2>Birthday Reminder - Starter</h2>;
+  return (
+    <main>
+      <BirthdayContainer></BirthdayContainer>
+    </main>
+  );
 };
 export default App;
