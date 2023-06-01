@@ -1,4 +1,4 @@
-import Starter from './tutorial/02-useEffect/starter/04-fetch-data';
+import Starter from './tutorial/03-conditional-rendering/starter/04-short-circuit-overview';
 
 function App() {
   return (
