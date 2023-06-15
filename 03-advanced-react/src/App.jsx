@@ -1,9 +1,9 @@
-import { List } from './tutorial/05-leverage-javascript/starter';
+import Starter from './tutorial/06-forms/starter/05-form-data';
 
 function App() {
   return (
     <div className='container'>
-      <List></List>
+      <Starter></Starter>
     </div>
   );
 }
