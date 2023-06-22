@@ -271,16 +271,7 @@ ul {
   margin-top: -1rem;
 }
 
-.container {
-  width: 95vw;
-  margin: 0 auto;
-  max-width: var(--max-width);
-}
 
-.container {
-  text-align: center;
-  margin-top: 5rem;
-}
 
 .users {
   max-width: 90vw;
